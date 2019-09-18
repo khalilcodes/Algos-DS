@@ -8,7 +8,7 @@ es = [];
 
 var n = readlineSync.question("enter number: ");
 
-for(var i = 1; i < n; i++) {
+for(var i = 0; i < n; i++) {
     if (i % 2 == 0) {
         e.push(i);
     } else {
@@ -19,7 +19,7 @@ for(var i = 1; i < n; i++) {
 console.log(e);
 console.log(o);
 
-for(var j = 1; j <= n*2; j++) {
+for(var j = 0; j <= n*2; j++) {
     if (j % 2 == 0) {
         es.push(j);
     } else {
