@@ -19,7 +19,7 @@ for(var i = 0; i < n; i++) {
 console.log(e);
 console.log(o);
 
-for(var j = 0; j <= n*2; j++) {
+for(var j = 0; j < n*2; j++) {
     if (j % 2 == 0) {
         es.push(j);
     } else {
