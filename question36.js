@@ -37,7 +37,6 @@ function checkMatrix() {
 }
 console.log(a);
 checkMatrix();
-
 if (checkMatrix()) {
     console.log("it is an identity matrix");
 } else {
