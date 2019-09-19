@@ -35,9 +35,7 @@ function checkMatrix() {
         }
     }
 }
-
 console.log(a);
-
 checkMatrix();
 
 if (checkMatrix()) {
