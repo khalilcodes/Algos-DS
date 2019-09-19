@@ -1,8 +1,9 @@
 var readlineSync = require("readline-sync");
 
+var num = readlineSync.question("Enter Number: ");
+
 function prime() {
-    var num = readlineSync.question("Enter Number: ");
-    // var n = [2, 3, 5, 7];
+    
     if (num <= 1) {
         console.log("Not Prime");
     } else if (num == 2 || num == 3 || num == 5 || num == 7) {
@@ -14,4 +15,4 @@ function prime() {
     }
 }
 
-prime()
+prime();
