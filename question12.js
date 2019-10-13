@@ -1,5 +1,7 @@
 // Write a  program for swapping of two arrays
 
+var readlineSync = require("readline-sync");
+
 var array1;
 var array2;
 

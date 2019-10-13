@@ -1,3 +1,8 @@
+// Write a program to generate Prime  Numbers less than N and 
+// Generate ‘N’ Prime Numbers/in given range.
+
+// by Khalil Ali - theHackingSchool.
+
 var readlineSync = require("readline-sync");
 
 var num = Number(readlineSync.question("Enter Number: "));
@@ -5,16 +10,17 @@ var num = Number(readlineSync.question("Enter Number: "));
 var array = [];
 var arrayWithNumber = [];
 
-function prime(num) {
-    if (num <= 1) {
-        return false;
-    } else if (num == 2 || num == 3 || num == 5 || num == 7) {
-        return true;
-    } else if (num % 2 == 0 || num % 3 == 0 || num % 5 == 0 || num % 7 == 0) {
-        return false;
-    } else {
-        return true;
+function prime(x) {
+
+    var factor = 0;
+
+    for (var i = 2; i <= x; i++) {
+        if(x % i == 0) {
+            factor++;
+        }
     }
+
+    (factor == 1) ? true : false;
 }
 
 for (var i = 0; i < num; i++) {
